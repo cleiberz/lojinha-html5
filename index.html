@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>.: Minha Lojinha na Internet :.</title>
-    </head>
-    <body>
 
+<head>
+    <title>.: Minha Lojinha na Internet :.</title>
+    <link rel="stylesheet" href="estilo-natal.css" </head>
+
+<body>
+    <div id="conteudo">
         <!--**BL001 - CABECALHO **-->
         <div id="cabecalho">
             <h1>Minha Lojinha na Internet</h1>
@@ -13,56 +15,59 @@
         <!--** BL002 - NAVBAR **-->
         <div id="navbar">
             <div> <a href="index.html"> Home </a> </div>
-            <div> <a href="quemsomos.html">  Quem Somos </a> </div>
+            <div> <a href="quemsomos.html"> Quem Somos </a> </div>
             <div> <a href="contato.html"> Contato </a> </div>
             <div> <a href="blog.html"> Fique por Dentro </a> </div>
-        
-        <!--** BL003 - IMAGEMGERAL **-->
-        <div id="imagemgeral">
-            <img src="imagens/banner-loja.webp" width="80%">
         </div>
-
-        <!--** BL004 - TITULODESTAQUE **-->
-         <div>
-             <h2>Produtos em Destaque</h2>
-         </div>
-
-        <!--** BL005 - PRODUTOS **-->
-        <div id="produtos">
-            <div class="produtoDestaque">
-                <img src="imagens/giftbox1.gif">
-                <h3> $10.00 </h3>
-                <p>Descrição do produto que é master, mega, blaster, ultra, hiper, supinpa</p>
+            <!--** BL003 - IMAGEMGERAL **-->
+            <div id="imagemgeral">
+                <img id="imgLoja" src="imagens/banner-loja.webp" width="80%">
             </div>
-            <div class="produtoDestaque">
-                <img src="imagens/giftbox2.gif">
-                <h3> $20.00 </h3>
-                <p>Descrição do produto que é master, mega, blaster, ultra, hiper, supinpa</p>
+
+            <!--** BL004 - TITULODESTAQUE **-->
+            <div id="tituloDestaque">
+                <h2>Produtos em Destaque</h2>
             </div>
-            <div class="produtoDestaque">
-                <img src="imagens/giftbox3.gif">
-                <h3> $30.00 </h3>
-                <p>Descrição do produto que é master, mega, blaster, ultra, hiper, supinpa</p>
+
+            <!--** BL005 - PRODUTOS **-->
+            <div id="produtos">
+                <div class="produtoDestaque">
+                    <img class="imgDestaque" src="imagens/giftbox1.gif">
+                    <h3> $10.00 </h3>
+                    <p class="descProduto">Descrição do produto que é master, mega, blaster, ultra, hiper, supinpa</p>
+                </div>
+                <div class="produtoDestaque">
+                    <img class="imgDestaque" src="imagens/giftbox2.gif">
+                    <h3> $20.00 </h3>
+                    <p class="descProduto">Descrição do produto que é master, mega, blaster, ultra, hiper, supinpa</p>
+                </div>
+                <div class="produtoDestaque">
+                    <img class="imgDestaque" src="imagens/giftbox3.gif">
+                    <h3> $30.00 </h3>
+                    <p class="descProduto">Descrição do produto que é master, mega, blaster, ultra, hiper, supinpa</p>
+                </div>
             </div>
         </div>
+    </div>
+    <!--** BL006 - RODAPÉ **-->
+    <div id="rodape">
 
-        <!--** BL006 - RODAPÉ **-->
-        <div id="rodape">
-
-            <!--** BL006.1 - redes-sociais **-->
-            <div id="redes-socias">
-            <img src="imagens/whatapp.png"> (19) 9.9120-1362 <br/> 
-            <img src="imagens/linkedin.png"> 
+        <!--** BL006.1 - redes-sociais **-->
+        <div id="redes-sociais">
+            <img src="imagens/whatapp.png"> (19) 9.9120-1362 <br />
+            <img src="imagens/linkedin.png">
             <a href="http://linkedin.com"> http://linkedin.com</a>
-            </div>
-
-            <!--** BL006.2 - e-mail **-->
-            <div id="e-mail">
-                <h3> Receba nossa novidades </h3>
-                <input type="email" id="inputEmail" placeholder="Digite seu e-mail"/>
-                <button>Enviar! </button>
-
-            </div>
         </div>
-    </body>
+
+        <!--** BL006.2 - e-mail **-->
+        <div id="e-mail">
+            <h3 id="receba"> Receba nossa novidades </h3>
+            <input type="email" id="inputEmail" placeholder="Digite seu e-mail" />
+            <button>Enviar! </button>
+
+        </div>
+    </div>
+
+</body>
+
 </html>
